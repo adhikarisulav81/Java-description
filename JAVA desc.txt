@@ -1,0 +1,34 @@
+1.	import java.io.File;        					//file class is Java's representation of a file or directory pathname
+2.	import java.io.FileReader;     					//used to read data from the file
+3.	import javax.swing.table.DefaultTableModel;     			//stores data of the table
+4.	import java.io.BufferedReader;     				//used to read data line by line by readLine() method, inherits Reader class, makes performance fast
+5.	import java.io.FileNotFoundException;     				//This exception is thrown during a failed attempt to open the file denoted by a specified pathname.
+6.	import java.io.FileWriter;					//Java FileWriter class is used to write character-oriented data to a file
+7.	import javax.swing.table.TableRowSorter;				//An implementation of RowSorter that provides sorting and filtering using a TableModel.
+8.	import java.io.IOException;					//Java application needs to handle failures related to reading, writing and searching a file or a directory. java. io. IOException is the base exception class used for handling the failures
+9.	import java.util.LinkedList;					//Java LinkedList class uses a doubly linked list to store the elements. It provides a linked-list data structure. It inherits the AbstractList class and implements the List interface.
+10.	import java.util.regex.Matcher;					//Java Regex or Regular Expression is an API to define a pattern for searching or manipulating strings. It is widely used to define the constraint on strings such as password and email validation
+11.	import java.util.regex.Pattern;					//java.util.regex.Pattern Class is used to create a matcher that will match the given input against this pattern
+12.	import javax.swing.RowFilter;					//a RowFilter associated with a JTable might only allow rows that contain a column with a specific string
+13.	import java.util.logging.Level;					//Logging is used to store exceptions, information, and warnings as messages that occur during the execution of a program
+14.	import java.util.logging.Logger;					//The info() method of a Logger class used to Log an INFO message.This method is used to forward logs to all the registered output Handler objects.
+
+
+
+Linked List vs ArrayList
+
+LinkedList is fast for adding and deleting elements, but slow to access a specific element. 
+ArrayList is fast for accessing a specific element but can be slow to add to either end, and especially slow to delete in the middle.
+ArrayList is faster than LinkedList if I randomly access its elements.
+ArrayList has direct references to every element in the list, so it can get the n-th element in constant time.
+LinkedList has to traverse the list from the beginning to get to the n-th element.
+LinkedList is faster than ArrayList for deletion.
+
+
+
+Remaining........
+
+importData
+Search by combobox
+binary search
+add method
